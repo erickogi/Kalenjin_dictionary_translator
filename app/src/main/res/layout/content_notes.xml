@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.erickogi14gmail.kale.Notes.Notes"
+    tools:showIn="@layout/activity_notes">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <android.support.design.widget.TextInputEditText
+          android:id="@+id/edt_title"
+          android:hint="Title"
+          android:lines="2"
+          android:inputType="textMultiLine"
+          android:maxLines="2"
+          android:textSize="18sp"
+          android:textColor="@color/colorPrimaryText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <android.support.design.widget.TextInputEditText
+          android:textColor="@color/colorPrimaryText"
+          android:id="@+id/edt_note"
+
+          android:gravity="top|start"
+          android:inputType="textMultiLine"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+
+
+  </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

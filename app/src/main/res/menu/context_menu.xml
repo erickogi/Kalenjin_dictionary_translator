@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_remove"
+
+        android:title="Remove From Favorites" />
+    <item
+        android:id="@+id/nav_share"
+
+        android:title="Share" />
+    <item
+        android:id="@+id/nav_note"
+
+        android:title="Add To Notes" />
+    <item
+        android:id="@+id/nav_copy"
+
+        android:title="Copy To clipboard" />
+
+</menu>
